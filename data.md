@@ -33,5 +33,5 @@ char(2byte) = 모든 유니코드 문자
 
 *형변환  
 -표현범위가 좁은 데이터 타입에서 표현범위가 넓은 데이터 타입으로만 형변환이 가능하다.  
-EX) byte -> short,int,double....
+EX) byte -> short,char -> int -> long -> float -> double. (역순으로는 형변환 불가능).
 
