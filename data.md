@@ -1,5 +1,6 @@
 
 *데이터의 크기
+
 8bit -> 1byte ->
 1024byte -> kilobyte
 1024kilobyte -> 1megabyte 
