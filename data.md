@@ -46,4 +46,12 @@ int b = (int)100.0F;
 
 *모든 연산에는 우선 순위가 있다.  
 
+*비교(Boolean)  
+-문자열을 비교할때는 .equals를 사용.  
+EX)  
+String a = "Hello";  
+Strang b = new String("Hello");  
+System.out.pringln(a.equals(b));  
+
+
 
