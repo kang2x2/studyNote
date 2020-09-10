@@ -10,3 +10,12 @@
 -단, 리턴타입이 다르면 안된다. EX)(void A = void A) -> O // (void A = int A) -> X  
 -매개변수의 이름도 같아야 하나?  
 
+**컴파일**  
+-window+R -> cmd -> 경로이동 -> javac 컴파일할 자바파일이름.  
+
+**패키지 import**  
+Inheritance = 패키지 이름  
+Calculator2 = Inheritance패키지에 속한 클래스중 하나.  
+
+import Inheritance.*; //패키지의 모든 클래스를 가져올 때?   
+import Inheritance.Calculator2; //패키지 내의 가져오고 싶은 클래스만.  
