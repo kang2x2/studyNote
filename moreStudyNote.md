@@ -18,4 +18,15 @@ Inheritance = 패키지 이름
 Calculator2 = Inheritance패키지에 속한 클래스중 하나.  
 
 import Inheritance.*; //패키지의 모든 클래스를 가져올 때?   
-import Inheritance.Calculator2; //패키지 내의 가져오고 싶은 클래스만.  
+import Inheritance.Calculator2; //패키지의 가져오고 싶은 클래스만.  
+
+**API**  
+-운영체제나 프로그래밍 언어에서 제공하는 기능을 제어 할 수 있도록 만든 인터페이스.  
+-프로그램에 필요한 명령목록을 정리하고 명령을 받으면 응용프로그램과 상호작용하여 명령에 요청된 값을 전달.(중간매게체 같은 역할?)  
+-즉, 프로그램들의 상호작용을 도와준다.  
+-자바를 제어하기 위한 자바에서 제공하는 명령어들.  
+-그렇다면 System.out.println();도 api인가?    
+
+**접근제어자**  
+
+
