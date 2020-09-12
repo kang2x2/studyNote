@@ -48,7 +48,7 @@ import Inheritance.Calculator2; //패키지의 가져오고 싶은 클래스만.
 
 **final**  
 -abstract(추상)과는 반대로 상속을 금지한다.  
-
+Ex) static final int a = 2; 라고 선언을 하면 a는 절대 변하지 않는다.  
 
 
 
