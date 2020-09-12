@@ -28,5 +28,27 @@ import Inheritance.Calculator2; //패키지의 가져오고 싶은 클래스만.
 -그렇다면 System.out.println();도 api인가?    
 
 **접근제어자**  
+1.public  
+-어디서든 사용 가능.  
+2.private  
+-오직 같은 클래스에서만 사용 가능.  
+3.protected  
+
+4.default  
+
+**public -> protected -> default -> private 순서로 접근이 자유로운 듯 하다.  
+클래스맴버의 접근자는 위의 4가지이지만, 클래스의 접근자는 public와 default 2가지 뿐이다.(default클래스를 선언 할 때에는 클래스의 앞에 default를 굳이 안 붙여도 되는듯?)  
+맴버와 마찬가지로 public은 패키지가 달라도 되고 default는 같은 패키지에서만 사용 가능 한 듯.**   
+
+**abstract(추상)** 
+-abstract클래스나 메서드를 사용하기 위해선 상속이 강제된다(상속받는 클래스가 있어야 한다.)  
+-abstract메서드를 선언할 때에는 메서드안에 로직이 없어야 한다?  
+-맴버중에 하나라도 abstract선언을 한다면 그 맴버를 담고 있는 클래스는 추상클래스가 된다.  
+-추상클래스는 추상메서드가 아닌 메서드를 가질 수 있다.  
+
+**final**  
+-abstract(추상)과는 반대로 상속을 금지한다.  
+
+
 
 
