@@ -52,9 +52,16 @@ Ex) static final int a = 2; 라고 선언을 하면 a는 절대 변하지 않는
 Ex) final void obj(){}; 라고 선언한 메서드 obj는 상속 불가능.(클래스도 마찬가지.)    
 
 **interface**  
-
+1.interpace를 사용하여 선언. Ex)interpace A {}  
+2.implements를 사용하여 구현. Ex)class B implements A {}  
 -원할한 소통(커뮤니케이션)을 위해 사용.  
 -커뮤니케이션의 미스를 방지하기 위해 엄격한 약속을 정하기 위함?  
+-하나의 클래스에서 여러개의 인터페이스를 구현 가능하지만, 구현한 인터페이스의 메서드를 하나라도 빼먹으면 안된다. Ex)class A implements a,b{메서드들}  
+-인터페이스끼리 상속이 가능하다.  
+-인터페이스의 맴버는 반드시 public여야 한다.  
+
+**interface와 abstarct의 차이점**  
+-interface는 구체적인 로직이나 필드를 가질 수 없고 abstarct는 구체적인 로직이나 필드를 가질 수 있다.  
 
 
 
