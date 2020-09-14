@@ -68,5 +68,16 @@ Ex) final void obj(){}; 라고 선언한 메서드 obj는 상속 불가능.(클�
 **interface와 abstarct의 차이점**  
 -interface는 구체적인 로직이나 필드를 가질 수 없고 abstarct는 구체적인 로직이나 필드를 가질 수 있다.  
 
+**Object Class**  
+
+-  
+
+**Object Class 메서드들**  
+1.toString  
+-객체를 문자로 표현.  
+2.equals  
+-객체와 객체가 같은지 비교.  
+
+
 
 
